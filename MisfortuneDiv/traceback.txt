@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 47, in script
+    show bg_gloomy_city send back
+Exception: Image 'bg_gloomy_city' does not accept attributes 'send back'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 47, in script
+    show bg_gloomy_city send back
+  File "/usr/share/renpy/renpy/ast.py", line 1192, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/usr/share/renpy/renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "/usr/share/renpy/renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "/usr/share/renpy/renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "/usr/share/renpy/renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "/usr/share/renpy/renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'bg_gloomy_city' does not accept attributes 'send back'.
+
+Linux-5.15.11-zen1-1-zen-x86_64-with-glibc2.2.5
+Ren'Py 7.4.8.1895
+Misfortune_Div 1.0
+Sun Dec 26 12:01:23 2021

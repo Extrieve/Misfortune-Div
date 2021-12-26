@@ -1,11 +1,11 @@
-Sat Dec 18 18:20:13 2021
-Linux-5.15.7-zen1-1-zen-x86_64-with-glibc2.2.5
+Sun Dec 26 12:08:43 2021
+Linux-5.15.11-zen1-1-zen-x86_64-with-glibc2.2.5
 Ren'Py 7.4.8.1895
  
 
-Bootstrap to the start of init.init took 0.11s
+Bootstrap to the start of init.init took 0.07s
 Early init took 0.00s
-Loader init took 0.01s
+Loader init took 0.00s
 Traceback (most recent call last):
   File "/usr/share/renpy/renpy/script.py", line 636, in load_file
     with open(rpycfn, "wb") as f:
@@ -14,7 +14,7 @@ Traceback (most recent call last):
   File "/usr/share/renpy/renpy/script.py", line 636, in load_file
     with open(rpycfn, "wb") as f:
 IOError: [Errno 13] Permission denied: '/usr/share/renpy/renpy/common/_shaders.rpymc'
-Loading error handling took 0.10s
+Loading error handling took 0.06s
 Traceback (most recent call last):
   File "/usr/share/renpy/renpy/script.py", line 636, in load_file
     with open(rpycfn, "wb") as f:
@@ -231,7 +231,7 @@ Traceback (most recent call last):
   File "/usr/share/renpy/renpy/script.py", line 636, in load_file
     with open(rpycfn, "wb") as f:
 IOError: [Errno 13] Permission denied: '/usr/share/renpy/renpy/common/00voice.rpyc'
-Loading script took 1.46s
+Loading script took 0.86s
 Loading save slot metadata. took 0.00s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -267,44 +267,37 @@ Traceback (most recent call last):
   File "/usr/share/renpy/renpy/script.py", line 636, in load_file
     with open(rpycfn, "wb") as f:
 IOError: [Errno 13] Permission denied: '/usr/share/renpy/renpy/common/_developer/inspector.rpymc'
-Running init code took 0.13s
+Running init code took 0.07s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to '/home/extrieve/.renpy/backups/MisfortuneDiv':
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.01s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.01s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.07s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.02s
 Running _start took 0.02s
 Performance test:
-Interface start took 0.17s
+Interface start took 0.12s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'AMD'
-Renderer: 'AMD RENOIR (DRM 3.42.0, 5.15.7-zen1-1-zen, LLVM 13.0.0)'
-Version: '4.6 (Compatibility Profile) Mesa 21.2.5'
+Renderer: 'AMD RENOIR (DRM 3.42.0, 5.15.11-zen1-1-zen, LLVM 13.0.0)'
+Version: '4.6 (Compatibility Profile) Mesa 21.3.2'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
